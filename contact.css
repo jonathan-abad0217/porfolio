@@ -1,0 +1,135 @@
+*{
+    font-family: "Roboto", sans-serif;
+}
+
+nav {
+    background-color: #333;
+    overflow: hidden;
+  }
+  
+  nav {
+    background-color: #333;
+    overflow: hidden;
+  }
+  
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+  }
+  
+  nav li {
+    float: none;
+    font-family: "Montserrat", sans-serif;
+    position: relative;
+  }
+  
+  nav a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  nav a:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: grey;
+    visibility: hidden;
+    transform: scaleX(0);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  nav a:hover:after {
+    visibility: visible;
+    transform: scaleX(1);
+  }
+  
+  nav a:hover {
+    background-color: #111;
+    color: white;
+  }
+  .webdev {
+    color: black;
+  }
+  
+  
+body{
+    background-color: #333333;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 1000'%3E%3Cg %3E%3Ccircle fill='%23333333' cx='50' cy='0' r='50'/%3E%3Cg fill='%233d3d3d' %3E%3Ccircle cx='0' cy='50' r='50'/%3E%3Ccircle cx='100' cy='50' r='50'/%3E%3C/g%3E%3Ccircle fill='%23474747' cx='50' cy='100' r='50'/%3E%3Cg fill='%23525252' %3E%3Ccircle cx='0' cy='150' r='50'/%3E%3Ccircle cx='100' cy='150' r='50'/%3E%3C/g%3E%3Ccircle fill='%235c5c5c' cx='50' cy='200' r='50'/%3E%3Cg fill='%23666666' %3E%3Ccircle cx='0' cy='250' r='50'/%3E%3Ccircle cx='100' cy='250' r='50'/%3E%3C/g%3E%3Ccircle fill='%23707070' cx='50' cy='300' r='50'/%3E%3Cg fill='%237a7a7a' %3E%3Ccircle cx='0' cy='350' r='50'/%3E%3Ccircle cx='100' cy='350' r='50'/%3E%3C/g%3E%3Ccircle fill='%23858585' cx='50' cy='400' r='50'/%3E%3Cg fill='%238f8f8f' %3E%3Ccircle cx='0' cy='450' r='50'/%3E%3Ccircle cx='100' cy='450' r='50'/%3E%3C/g%3E%3Ccircle fill='%23999999' cx='50' cy='500' r='50'/%3E%3Cg fill='%23a3a3a3' %3E%3Ccircle cx='0' cy='550' r='50'/%3E%3Ccircle cx='100' cy='550' r='50'/%3E%3C/g%3E%3Ccircle fill='%23adadad' cx='50' cy='600' r='50'/%3E%3Cg fill='%23b8b8b8' %3E%3Ccircle cx='0' cy='650' r='50'/%3E%3Ccircle cx='100' cy='650' r='50'/%3E%3C/g%3E%3Ccircle fill='%23c2c2c2' cx='50' cy='700' r='50'/%3E%3Cg fill='%23cccccc' %3E%3Ccircle cx='0' cy='750' r='50'/%3E%3Ccircle cx='100' cy='750' r='50'/%3E%3C/g%3E%3Ccircle fill='%23d6d6d6' cx='50' cy='800' r='50'/%3E%3Cg fill='%23e0e0e0' %3E%3Ccircle cx='0' cy='850' r='50'/%3E%3Ccircle cx='100' cy='850' r='50'/%3E%3C/g%3E%3Ccircle fill='%23ebebeb' cx='50' cy='900' r='50'/%3E%3Cg fill='%23f5f5f5' %3E%3Ccircle cx='0' cy='950' r='50'/%3E%3Ccircle cx='100' cy='950' r='50'/%3E%3C/g%3E%3Ccircle fill='%23FFFFFF' cx='50' cy='1000' r='50'/%3E%3C/g%3E%3C/svg%3E");
+background-attachment: fixed;
+background-size: contain;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    font-size: 18px;
+    line-height: 1.5;
+    padding: 20px;
+    background-color: #333;
+    border: 1px solid #737373;
+    border-radius: 15px;
+  }
+  
+  h1 {
+    
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  input[type="text"],
+  select,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  textarea {
+    height: 150px;
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    border-color: white;
+    font-family: "Montserrat", sans-serif;
+    border: 1px solid #737373;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #111;
+    color: white;
+  }
+  
